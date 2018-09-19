@@ -1,0 +1,118 @@
+{
+  "selectedTemplate": 6,
+  "headings": {
+    "work": "",
+    "awards": "",
+    "projects": "Projects"
+  },
+  "basics": {
+    "name": "Austin Hardaway",
+    "email": "austinhardaway@gmail.com",
+    "phone": "9033431017",
+    "location": {
+      "address": "Athens, GA"
+    },
+    "website": "https://austinhardaway.site"
+  },
+  "education": [
+    {
+      "institution": "University of Georgia",
+      "area": "Computer Science and Mathematics",
+      "studyType": "BS",
+      "startDate": "Fall 2015",
+      "location": "Athens, GA",
+      "endDate": "Spring 2019"
+    }
+  ],
+  "work": [
+    {
+      "location": "Johns Creek, GA",
+      "position": "DevOps Intern",
+      "website": "",
+      "startDate": "May, 2018",
+      "endDate": "August, 2018",
+      "highlights": [
+        "Embedded into the D2C DevOps team and contributed to Kanban sprints. Also desinged and implemented a capstone project",
+        "Designed and implemented centralized CI/CD build pipline for Java microservices in the Jenkins DSL. Then presented and defended implementation to upper management and senior developers.",
+        "Maintained build and deployment infrasturcture (GitLab/Jenkins/Artifactory/Chef)",
+        "Drove paradigm shift from GitFlow to TrueCI",
+        "Contributed to large migration of code from legacy vm based infrastructure to a new containerized infrastructure",
+        "Jenkins, Groovy, Chef, Python, Linux (CentOS), bash"
+      ],
+      "company": "Macys Technology"
+    },
+    {
+      "highlights": [
+        "Worked on a small team responsible for an internal site for viewing buisness metrics as well as a consumer facing site for viewing policies",
+        "Implemented new system-wide messaging microservice in Java",
+        "Responsible for daily bug-fix/refactor tickets throughout the full stack",
+        "Java/Spring, SQL(MySQL, DB2, OracleDB), JSP,  HTML/CSS/JS "
+      ],
+      "company": "WoodmenLife",
+      "position": "Software Engineering Intern",
+      "location": "Omaha, NE",
+      "startDate": "May 2016",
+      "endDate": "July 2016"
+    },
+    {
+      "highlights": [
+        "I TA CSCI 1301, a rigorous introduction to object oriented programming and the Java language. ",
+        "Grade weekly programming assignments",
+        "Attend labs and lectures and field questions from students ranging from general programming to grading policies to specific help with debugging and implementation"
+      ],
+      "company": "UGA CSCI Department",
+      "position": "Peer Learning Assistant (TA)",
+      "location": "Athens, GA",
+      "startDate": "August 2014",
+      "endDate": "Current"
+    }
+  ],
+  "skills": [
+    {
+      "level": "",
+      "keywords": [
+        ""
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Portfolio Mk. 2",
+      "description": "Redesigned portolio to unify the information between my resume and my online professional presence.  All content from both is defined and retrived from a central JSON  file and rendered serverside.",
+      "url": "https://austinhardaway.site",
+      "keywords": [
+        "Node.js",
+        "Vue",
+        "Bootstrap",
+        "Heroku"
+      ]
+    },
+    {
+      "keywords": [
+        "Node.js",
+        "Vue",
+        "CSS/HTML (No Frameworks)"
+      ],
+      "name": "Java Math App",
+      "description": "Web App designed to help my 1301 students practice math with data types. It generates random values and then gives the student a series of expressions to evaluate.",
+      "url": "https://java-math.herokuapp.com"
+    }
+  ],
+  "awards": [
+    {
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}

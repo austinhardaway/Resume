@@ -1,0 +1,65 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdftex 2018.9.14)  19 SEP 2018 08:12
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**resume.tex
+(./resume.tex
+! Undefined control sequence.
+l.1 \documentclass
+                  [10pt]{article}
+? 
+! Undefined control sequence.
+l.2     \usepackage
+                   [english]{babel}
+? 
+! I can't find file `{config/minimal-resume-config}'.
+l.3     \input{config/minimal-resume-config}
+                                            
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! I can't find file `{config/minimal-resume-config}'.
+l.3     \input{config/minimal-resume-config}
+                                            
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! I can't find file `{config/minimal-resume-config}'.
+l.3     \input{config/minimal-resume-config}
+                                            
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! I can't find file `{config/minimal-resume-config}'.
+l.3     \input{config/minimal-resume-config}
+                                            
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! I can't find file `{config/minimal-resume-config}'.
+l.3     \input{config/minimal-resume-config}
+                                            
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! I can't find file `{config/minimal-resume-config}'.
+l.3     \input{config/minimal-resume-config}
+                                            
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! I can't find file `{config/minimal-resume-config}'.
+l.3     \input{config/minimal-resume-config}
+                                            
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! I can't find file `{config/minimal-resume-config}'.
+l.3     \input{config/minimal-resume-config}
+                                            
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! I can't find file `{config/minimal-resume-config}'.
+l.3     \input{config/minimal-resume-config}
+                                            
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! Emergency stop.
+l.3     \input{config/minimal-resume-config}
+                                            
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!
