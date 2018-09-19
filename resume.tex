@@ -1,91 +1,85 @@
-% Austin Hardaway's Resume
+\documentclass[10pt]{article}
+    \usepackage[english]{babel}
+    \input{config/minimal-resume-config}
+    \begin{document}
+    
+\begin{center}
+	% Personal
+	% -----------------------------------------------------
+	{\fontsize{\sizeone}{\sizeone}\fontspec[Path = fonts/,LetterSpace=15]{Montserrat-Regular} AUSTIN HARDAWAY}
+	\\
+	\vspace{2mm}
+	{\fontsize{1em}{1em}\fontspec[Path = fonts/]{Montserrat-Light} austinhardaway@gmail.com -- 9033431017 -- Athens, GA -- https://austinhardaway.site}
+\end{center}
+% Chapter: Education
+% ------------------
 
-
-\documentclass[margin,line]{resume}
-
-\usepackage{graphicx}
-
-\begin{document}
-
-\name{\huge \sc{Austin Hardaway}\vspace{2mm}}
-{
-    \hfill austinhardaway@gmail.com       \vspace{0mm}\\\vspace{0mm}%
-    \hfill http://austinhardaway.github.io         \vspace{0mm}\\\vspace{0mm}%
-    \hfill https://github.com/austinhardaway \vspace{0mm}\\\vspace{0mm}%
-    \hfill https://www.linkedin.com/in/austinhardaway/ \vspace{0mm}\\\vspace{0mm}%
-    \hfill 903-343-1017 \vspace{0mm}\\\vspace{-9mm}%
-
+\chap{EDUCATION}{
+	
+	\school
+	{University of Georgia}
+	{Fall 2015 – Spring 2019}
+	{BS Computer Science and Mathematics}
+	{Athens, GA}
+	{
+	}
+}
+% Chapter: Work Experience
+% ------------------------
+\chap{EXPERIENCE}{
+	
+	\job
+	{Macys Technology}
+	{May, 2018 – August, 2018}
+	{DevOps Intern}
+	{Johns Creek, GA}
+	{\begin{newitemize}
+		\item {Embedded into the D2C DevOps team and contributed to Kanban sprints. Also desinged and implemented a capstone project}
+		\item {Designed and implemented centralized CI/CD build pipline for Java microservices in the Jenkins DSL. Then presented and defended implementation to upper management and senior developers.}
+		\item {Maintained build and deployment infrasturcture (GitLab/Jenkins/Artifactory/Chef)}
+		\item {Drove paradigm shift from GitFlow to TrueCI}
+		\item {Contributed to large migration of code from legacy vm based infrastructure to a new containerized infrastructure}
+		\item {Jenkins, Groovy, Chef, Python, Linux (CentOS), bash}
+		\end{newitemize}}
+	\job
+	{WoodmenLife}
+	{May 2016 – July 2016}
+	{Software Engineering Intern}
+	{Omaha, NE}
+	{\begin{newitemize}
+		\item {Worked on a small team responsible for an internal site for viewing buisness metrics as well as a consumer facing site for viewing policies}
+		\item {Implemented new system-wide messaging microservice in Java}
+		\item {Responsible for daily bug-fix/refactor tickets throughout the full stack}
+		\item {Java/Spring, SQL(MySQL, DB2, OracleDB), JSP, HTML/CSS/JS}
+		\end{newitemize}}
+	\job
+	{UGA CSCI Department}
+	{August 2014 – Current}
+	{Peer Learning Assistant (TA)}
+	{Athens, GA}
+	{\begin{newitemize}
+		\item {I TA CSCI 1301, a rigorous introduction to object oriented programming and the Java language.}
+		\item {Grade weekly programming assignments}
+		\item {Attend labs and lectures and field questions from students ranging from general programming to grading policies to specific help with debugging and implementation}
+		\end{newitemize}}
 }
 
-\begin{resume}
+% Chapter: Projects
+% ------------------------
 
-    \vspace{-3mm}
-
-    %__________________________________________________________________________________________________________________
-    % Summary
-    \section{\mysidestyle \textbf{\large{S}\small{UMMARY}}}
-
-    Senior at UGA pursuing a double major in Computer Science and Mathematics with an area
-    of emphasis in Applied Mathematics. I have a passion for creating and making through software and am interested in opportunities to help me cultivate that passion.
-
-    \vspace{-1mm}
-
-\sectionline
-
-    %__________________________________________________________________________________________________________________
-	% Education
-    \section{\mysidestyle \textbf{\large{E}\small{DUCATION}}}
-
-    \textbf{\listing University of Georgia}, Athens, Georgia \vspace{1mm}\\
-    \textsl{Computer Science and Mathematics - GPA:3.1} \hfill \textbf{August 2015 -- May 2019}\vspace{-3mm}\\\vspace{-1mm}%
-	\\Dean's List Fall 2015, Spring 2018
-	\\Active UGA Mock Trial Competitor 2015-2018 
-
-    \vspace{-1mm}
-
-	\sectionline
-
-    %__________________________________________________________________________________________________________________    
-    % Professional Experience
-    \section{\mysidestyle \textbf{\large{P}\small{ROFESSIONAL} \large{E}\small{XPERIENCE}}}
-
-	% Macy's @TODO: Update with more clear responsibilites
-    \textbf{\listing Macy's Technology} \vspace{2mm}\\\vspace{1mm}%
-    \textsl{DevOps Intern} \hfill \textbf{May 2018 -- August 2018}\\
-    10 week internship with the DevOps team in Johns Creek at Macy's Technology.
-
-    % WoodmenLife
-    \textbf{\listing WoodmenLife} \vspace{2mm}\\\vspace{1mm}%
-    \textsl{Software Engineering Intern} \hfill \textbf{May 2016 -- July 2016}\\
-    Summer internship, I was placed on an agile based team of developers and
-had a comparable workload as a full-time junior developer.
-Throughout the course of the program I completed tickets that ranged the entire
-Java/Spring stack. (Java/Spring/MySQL/JSP)
-As a capstone i was responsible for designing and implementing a new messaging feature from the ground up
-designing the views, creating the tables, etc.
-\\\\
-    % iFixit
-    \textbf{\listing UGA Office of STEM Education} \vspace{2mm}\\\vspace{1mm}%
-    \textsl{Peer Learning Assistant/TA} \hfill \textbf{June 2012 -- August 2014}\\
-    I TA CSCI 1301, a rigorous introduction to programming. It's a large lecture format and taught in Java, I am responsible for
-grading assignment submissions and helping students troubleshoot their lab assignments.
-During this past year I have helped create 2 new lab assignments, this includes having an idea which exhibits specific skills (2D arrays, string manipulation, etc) and then creating any external classes the students may need as well as creating grading and instruction documents.\\ 
-Additionally I have written and shared numerous grading scripts which automate the process of grading sometimes upward of 100-150 command line applications. These scripts are usually written in the bash scripting language and sometimes require Java Reflection and/or JUnit testing.
-
-
-\sectionline
-
-    %__________________________________________________________________________________________________________________
-   
-    % Skills / Keywords
-    \section{\mysidestyle \textbf{\large{S}\small{KILLS} }}
-
-    \textbf{Linux:} Red Hat family, Debian family (Ubuntu, Debian)\\
-    \textbf{Scripting:} Bash, Python, Ruby\\
-    \textbf{Backend:} Python, Java (Spring), C/C++\\
-    \textbf{Frontend:} HTML, CSS and Less, Javascript (jQuery)\\
-    \textbf{Databases:} MySQL, firebase, H2\\
-    \textbf{Version control systems:} Git, Subversion\\
-    
-\end{resume}
+\chap{PROJECTS}{
+	
+	\project
+	{Portfolio Mk. 2}
+	{Node.js, Vue, Bootstrap, Heroku}
+	{https://austinhardaway.site}
+	{Redesigned portolio to unify the information between my resume and my online professional presence. All content from both is defined and retrived from a central JSON file and rendered serverside.\\}
+		\project
+		{Java Math App}
+		{Node.js, Vue, CSS/HTML (No Frameworks)}
+		{https://java-math.herokuapp.com}
+		{Web App designed to help my 1301 students practice math with data types. It generates random values and then gives the student a series of expressions. The student is then asked for the resultant value and data-type (in Java).\\}
+		}
+		
+		\ 
 \end{document}
