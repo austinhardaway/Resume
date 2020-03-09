@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Sen&display=swap');
+
+html {
+    width:21cm;
+    height: 29.7cm;
+}
+
+body {
+    
+    font-family: 'Montserrat', sans-serif;
+    /* font-size: 12pt; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    overflow: wrap;
+    padding: 25px 55px 10px 55px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: .1px;
+    text-align: center;
+    margin: 0;
+}
+
+hr {
+    width:100%;
+    height: 2px;
+    color: black;
+    background: black;
+}
+
+.section {
+    padding:10px;
+    width: 100%;
+}
+
+.experience::before {
+    content: 'experience';
+    font-variant: small-caps;
+    font-weight: bold;
+    position: relative;
+    top: -20px;
+}
+
+.education::before {
+    content: 'education';
+    font-variant: small-caps;
+    font-weight: bold;
+    position: relative;
+    top: -20px;
+}
+
+.subSecitonHeader {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    line-height: -100px
+}
+
+.topRow,  .bottomRow {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: baseline;
+    justify-content: space-between;
+    line-height: 1px;
+}
+
+.topRow:first-child, .bottomRow:first-child {
+    justify-self: flex-start;
+}
+
+.topRow:last-child, .bottomRow:last-child {
+    justify-self: flex-end;
+}
